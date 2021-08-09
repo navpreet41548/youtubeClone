@@ -1,0 +1,27 @@
+.appLeft{
+    flex: 0.08;
+    background-color: #212121;
+    height: 100vh;
+}
+
+.burgerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    height: auto;
+}
+
+.iconsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.iconLable{
+    color: white;
+     font-size: 10px;
+    margin-top: 5px;
+}

@@ -1,0 +1,110 @@
+
+
+.appRight{
+    flex:0.92;
+    height: 100%;
+}
+
+.appRight_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding: 15px 0;
+    border-bottom: 1px solid hsl(0, 0%, 18.82%);
+    align-items: center;
+}
+
+.mainLogo{
+    max-width: 100%;
+    max-height: 100%;
+    height: 25px;
+    filter: invert(100%);
+}
+
+.appRight_headerCenter{
+    display: flex;
+    align-items: center;
+}
+
+.searchWraper{
+    border: 1px solid hsl(0, 0%, 18.82%);
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.searchInput{
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    width: 290px;
+    border-right: none;
+    margin: 0 5px;
+}
+
+.searchButton{
+    background-color: hsl(0, 0%, 18.82%);
+    border: none;
+    padding: 5px 20px;
+}
+
+.micWraper{
+    margin: 0 10px!important;
+}
+.appRight_headerLogoMic{
+    margin: 0 10px!important;
+}
+
+.appRight_headerRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appRight_headerLogo{
+    margin: 0 20px;
+    
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(24, 157, 245);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin:0 20px;
+}
+
+.tagContainer{
+    width: 100%;
+    background-color: #212121;
+    border-bottom:1px solid hsl(0, 0%, 18.82%) ;
+    display: flex;
+    padding: 10px;
+    align-content: center;
+}
+
+.tag{
+    padding: 5px 15px;
+    margin: 0 7px;
+    background-color: #535353;
+    border-radius: 30px;
+    border: 1px solid rgb(117, 117, 117);
+    color: white;
+}
+.arrow{
+    padding: 0 20px;
+}
+
+.mainContainer{
+    background-color: #181818;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
